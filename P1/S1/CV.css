@@ -6,12 +6,13 @@ h2 {
    
   }
 h2 {
+    text-align: center;
     color:rgb(168, 0, 36);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   }
 li {
     color: white;
-    aling:left;
+    text-align:left;
   }
 h1 {
     font-size:xx-large;
