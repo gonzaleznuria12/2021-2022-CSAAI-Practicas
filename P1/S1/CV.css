@@ -2,5 +2,16 @@ h2 {
     margin: 10px;
     padding: 10px; /* Relleno */
     border:solid;
-    border-color: greenyellow;
+    border-color:pink;
+   
   }
+h2 {
+    color:rgb(168, 0, 36);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+li {
+    color: white;
+  }
+h1 {
+    font-size:xx-large;
+}
