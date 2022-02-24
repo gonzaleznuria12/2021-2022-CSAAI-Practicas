@@ -1,19 +1,81 @@
+td {
+    color: white;
+  }
+body {
+    background: no-repeat;
+    background-image: url(imagen.jpg);
+   
+  
+    color:white;
+}
+div {
+    font-family: sans-serif;
+    padding: 7.5px;
+    border: solid;
+    border-color: rgb(151, 23, 13);
+    border-radius: 5px;
+    color:white;
+
+   
+}
+
 h2 {
-    margin: 6px;
-    padding: 6px; /* Relleno */
-    border:solid;
-    border-color:pink;
+    font-family: sans-serif;
+    padding: 10px;
+    border: solid;
+    border-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    outline-offset: -3px;
+    background-color: rgba(211, 33, 2, 0.849);
+    color:white;
+
+}
+
+h1 {
+    font-family: sans-serif;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px rgb(240, 27, 27);
+
+}
+
+th{
+    background-color: rgba(252, 0, 0, 0.904);
+}
+
+
+.marco1 img{
+    border: 1px solid rgb(255, 55, 55);
+ }
+
+.marco2 iframe{
+    border: 10px solid rgb(255, 17, 17)
+}
+
+.circular--square {
+    border-radius: 50%;
+    border: 5px solid rgb(255, 17, 17);
    
   }
-h2 {
-    text-align: center;
-    color:rgb(168, 0, 36);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  }
-li {
-    color: white;
-    text-align:left;
-  }
-h1 {
-    font-size:xx-large;
+
+leftcolumn{
+    font-family: sans-serif;
+    float: left;
+    width: 25%;
+    padding: 25px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    outline-style: solid;
+    outline-color:red;
+    outline-offset: -8px;
+}
+
+rightcolumn{
+    float: left;
+    width: 65%;
+    padding: 25px;
+    outline-style: solid;
+    outline-color: red;
+    outline-offset: -8px;
 }
