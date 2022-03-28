@@ -1,0 +1,112 @@
+body{
+    background: no-repeat;
+    background-image: url(fondo3.jpg);
+    background-size: cover;
+    
+}
+
+.calculadora{
+    
+    border: rgb(0, 238, 255) 6px outset;
+    border-radius: 20px;
+    border-radius: 20px;
+    width: 390px;
+    margin: auto;
+    padding: 10px;
+
+    background-color: rgb(143, 239, 252);
+}
+
+@font-face{
+    font-family: 'DS-Digital';
+    src: url("DS-DIGI.TTF");
+}
+
+#display{
+    line-height: 80px;
+    text-align: right;
+    width: 370px;
+    height: 80px;
+    background-color: rgb(147, 147, 147);
+    background-image: url(3.webp);
+    background-size: cover;
+    border: solid;
+    border-radius: 20px;
+    border-color: rgb(82, 20, 69);
+    margin: 6px;
+    padding: 2px;
+    font-family: 'DS-Digital';
+    font-size: 40px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.digito{
+    background-image: url('boku2.jpg');
+    background-size: cover;
+    background-color: rgb(255, 0, 0);
+    border: rgb(160, 0, 0) 5px outset;
+
+
+}
+
+.operation{
+    border: rgb(255, 0, 0) 5px outset;
+    background-color: rgba(50, 255, 238, 0.872);
+}
+
+button{
+    Font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    font-weight: bold;
+    width: 62.5px;
+    height: 62.5px;
+    margin: 6px;
+    padding: 2px;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+#clear{
+    background-image: url('bakugo.webp');
+    background-size: cover;
+    border: rgb(66, 179, 191) 5px outset;
+    background-color: rgba(135, 218, 250, 0.934);
+}
+
+#clearone{
+    background-image: url('shoto.webp');
+    background-size: cover;
+    border: rgb(66, 179, 191) 5px outset;
+    background-color: rgba(135, 218, 250, 0.934);
+}
+
+#elevar{
+    border: rgb(255, 0, 0) 5px outset;
+    background-color: rgba(0, 255, 255, 0.872);
+}
+
+#porcentaje{
+    border: rgb(0, 255, 255, 0.872) 5px outset;
+    background-color: rgba(0, 255, 255, 0.872); 
+}
+
+#sqrt{
+    border: rgb(0, 238, 255) 5px outset;
+    background-color: rgba(0, 238, 255, 0.872);
+}
+
+#igual{
+    background-image: url('uraraka.jpeg');
+    background-size: cover;
+    border: rgb(51, 179, 113) 5px outset;
+    background-color: rgba(133, 232, 171, 0.934);
+}
+
+#coma{
+    background-image: url('all.webp');
+    background-size: cover;
+    background-color: rgb(145, 12, 240);
+    border: rgb(127, 21, 255) 5px outset;
+    color:rgb(0, 225, 255);
+
+}

@@ -1,0 +1,94 @@
+body{
+    background-image: url(fondo.jpg);
+    
+}
+
+h1{
+    /*margin-top: 2px;*/
+     font-size: 40px;
+ }
+h2{
+    color: rgb(144, 85, 255);
+}
+p{
+    color: white;
+    margin-left: 1px;
+}
+div {
+    color: rgb(255, 0, 0);
+    background-color: rgba(0, 0, 0, 0.842);
+    border-color: rgb(121, 201, 228);
+
+    margin-top: -610px;
+    margin-left: 5%;
+    margin-right: 70%;
+    border-radius: 6px;
+    padding: 2px;
+    width: 300px;
+}
+
+.div2{
+    color: rgb(255, 34, 34);
+    background-color: rgba(0, 0, 0, 0.842);
+    border-color: rgb(121, 201, 228);
+
+    margin-top: 20px;
+    margin-left: 5%;
+    margin-right: 70%;
+    border-radius: 6px;
+    padding: 2px;
+    width: 300px;
+}
+
+canvas {
+    text-align: center;
+    background-color: black;
+    opacity: 0.9;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(121, 201, 228);
+    border-radius: 5px;
+    margin-left: 500px;
+    margin-top: 1%;
+}
+
+/*pa los buttons*/
+#button0{
+    height: 40px;
+    width: 80px;
+
+    font-size: 20px;
+    border-radius: 20px;
+    border-color: rgb(255, 0, 0);
+    margin-left: 110px;
+}
+#button{
+    height: 40px;
+    width: 100px;
+
+    font-size: 20px;
+    border-radius: 20px;
+    border-color: rgb(255, 0, 0);
+    margin-left: 50px;
+}
+#button2{
+    height: 40px;
+    width: 100px;
+
+    font-size: 20px;
+    border-radius: 20px;
+    border-color: rgb(255, 0, 0);
+}
+#button0:hover{
+    background-color:rgb(255, 0, 0) ;
+}
+#button:hover{
+    background-color:rgb(255, 0, 0) ;
+}
+#button2:hover{
+    background-color:rgb(255, 0, 0) ;
+}
+
+#botonesdif{
+    color: rgb(255, 0, 0);
+}
