@@ -317,10 +317,10 @@ function update(){
         window.onkeydown = (e) => {
           //-- Según la tecla se hace una cosa u otra
           switch (e.key) {
-            case "4": //izq
+            case "A": //izq
               xtabla = xtabla - 40;
               break;
-            case "6": //drch
+            case "D": //drch
               xtabla = xtabla + 40;
               break;
             case " ":
@@ -336,10 +336,10 @@ function update(){
         window.onkeydown = (e) => {
           //-- Según la tecla se hace una cosa u otra
           switch (e.key) {
-            case "4": //izq
+            case "A": //izq
               xtabla = xtabla - 30;
               break;
-            case "6": //drch
+            case "D": //drch
               xtabla = xtabla + 30;
               break;
             case " ":
@@ -355,10 +355,10 @@ function update(){
         window.onkeydown = (e) => {
           //-- Según la tecla se hace una cosa u otra
           switch (e.key) {
-            case "4": //izq
+            case "A": //izq
               xtabla = xtabla - 20;
               break;
-            case "6": //drch
+            case "D": //drch
               xtabla = xtabla + 20;
               break;
             case " ":
@@ -384,10 +384,10 @@ function update(){
 window.onkeydown = (e) => {
     //-- Según la tecla se hace una cosa u otra
     switch (e.key) {
-      case "a": //izq
+      case "A": //izq
         xtabla = xtabla - 30;
         break;
-      case "d": //drch
+      case "D": //drch
         xtabla = xtabla + 30;
         break;
       case " ":
