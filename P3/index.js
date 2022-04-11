@@ -20,12 +20,12 @@ let puntos = 0;
 let vidas = 3;
 
 //sonidos
-const raqueta = new Audio("raqueta.mp3");
-const rebote = new Audio("rebote.mp3");
-const ladrillo = new Audio("bip6.mp3");
-const fallo = new Audio("fallo.mp3");
-const fin = new Audio("gameover.mp3");
-const win = new Audio("win.mp3");
+const raqueta = new Audio("gato1.mp3");
+const rebote = new Audio("gato2.mp3");
+const ladrillo = new Audio("gato3.mp3");
+const fallo = new Audio("gato4.mp3");
+const fin = new Audio("gato5.mp3");
+const win = new Audio("gato6.mp3");
 
 //botones
 const button0 = document.getElementById("button0");
