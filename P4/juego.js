@@ -20,7 +20,7 @@ let puntos = 0;
 let vidas = 3;
 
 //sonidos
-const raqueta = new Audio("raqueta.mp3");
+const raqueta = new Audio("gato.mp3");
 const rebote = new Audio("rebote.mp3");
 const ladrillo = new Audio("bip6.mp3");
 const fallo = new Audio("fallo.mp3");
