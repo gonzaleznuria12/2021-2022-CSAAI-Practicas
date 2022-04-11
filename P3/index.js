@@ -19,14 +19,6 @@ let radio = 10;
 let puntos = 0;
 let vidas = 3;
 
-//sonidos
-const raqueta = new Audio("gato.mp3");
-const rebote = new Audio("rebote.mp3");
-const ladrillo = new Audio("bip6.mp3");
-const fallo = new Audio("fallo.mp3");
-const fin = new Audio("gameover.mp3");
-const win = new Audio("win.mp3");
-
 //botones
 const button0 = document.getElementById("button0");
 const button = document.getElementById("button");
