@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="foto3.jpg">
+        <link rel="stylesheet" href="index.css">
+        <script src="index.js" defer></script>
+        <title>P4</title>
+    </head>
+
+    <body>
+        <div class="box">
+            <table class="table1">   
+                <td>
+                    <h1>Foto 1</h1>
+                    <span class="seleccion"><img src="foto4.jpg" id="daltvila" class="seleccion"></span>
+                </td>
+
+                <td>
+                    <h1>Foto 2</h1>
+                    <img src="foto2.webp" id="esvedra" class="seleccion">
+                </td>
+                
+                <td id="filtros" style="display: none;">
+                    <button style="margin-left: 35px;" id="ruido" class="botones">Ruido</button><br>
+                    <button style="margin-left: 5px;" id="transparente"class="botones">Transparencia</button><br>
+                    <button style="margin-left: 25px;" id="negativo"class="botones">Negativo</button><br>
+                    <button id="escalagrises"class="botones">Escala de grises</button><br>
+                    <button style="margin-left: 30px;"id="colores"class="botones">Colores</button><br>
+                    <button style="margin-left: 36px;" id="sepia" class="botones">Sepia</button><br>
+                    <button style="margin-left: 30px;" id="mirror" class="botones">Mirror</button><br>
+                    <button style="margin-left: 40px;" id="flip" class="botones">Flip</button><br>
+                </td>
+            </table>
+            
+            <table> 
+                <td id="manipulada" style="display: none;">
+                    <h2>Imagen manipulada</h2>
+                    <canvas id="canvas"></canvas> 
+                </td>  
+
+                <td>  
+                    <div id="transparencia" style="display: none;">
+                        <input type="range" id="trans_deslizador" min="0" max="255" value="255"/>
+                        <p id="trans_value">255</p>
+                    </div>            
+                    <div id="aparecer" style="display: none;">
+                        R<input type="range" id="R_deslizador" min="0" max="255" value="255"/>
+                        <p id="R_value">255</p>
+                        G<input type="range" id="G_deslizador" min="0" max="255" value="255"/>
+                        <p id="G_value">255</p>
+                        B<input type="range" id="B_deslizador" min="0" max="255" value="255"/>
+                        <p id="B_value">255</p>
+                    </div>
+                </td>  
+            </table>
+            <h1 style="font-style: italic;" id="inicio">Elija una imagen para comenzar</h1>
+        </div><br>
+        <button style="margin-left: 1470px; display: none;" id="reset" class="botones">Reset</button>
+        
+    </body>
+</html>
