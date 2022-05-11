@@ -50,7 +50,7 @@ img2.onclick = () => {
   img.src="foto4.jpg";
 }
 img3.onclick = () => {
-  img.src="foto3.jpg";
+  img.src="img_gatete.jpg";
 }
 
 function colors(){
