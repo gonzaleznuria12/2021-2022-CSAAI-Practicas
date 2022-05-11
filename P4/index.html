@@ -1,69 +1,53 @@
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
-
   <head>
     <meta charset="utf-8">
-    <title>Filtro</title>
+    <title>Filtro - Rebeca</title>
+      <link href="https://fonts.googleapis.com/css2?family=Girassol&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
+
     <script src="index.js" defer></script>
   </head>
-
   <body>
-
-    <div class="orig">
-      <p>Imagen original 1</p>
-      <img src="img_gatete.jpg" id="img_original1" width="392" height="257">
+    <div id="fuentes">
+      <img id = "imagen" src="foto2.webp" width="100px">
+      <img id = "imagen" src="foto4.jpg" width="100px">
+      <img id = "imagen" src="foto3.jpg" width="100px">
+    </div>
+    <div id="botones">
+      <button id = "img1">IMAGEN 1</button>
+      <button id = "img2">IMAGEN 2</button>
+      <button id = "img3">IMAGEN 3</button>
+    </div>
+    <div id="content">
+        <div id="left">
+          <p>IMAGEN ORIGINAL</p>
+          <img src="foto2.webp" id="imagesrc">
+        </div>
+        <div id="right">
+          <p>IMAGEN MANIPULADA</p>
+          <canvas id="canvas"></canvas>
+          <br>
+        </div>
+    </div>
+    <div id="deslizador">
       <br>
-      <button id="boton_img1">Seleccionar imagen 1</button>
-    </div>
+      <button id = "original">ORIGINAL</button>
+      <button id = "gray">GRAY</button>
+      <button id = "especular">ESPECULAR</button>
+      <button id = "babajo">B.ABAJO</button>
+      <button id = "negativo">NEGATIVO</button>
 
-    <div class="orig">
-      <p>Imagen original 2</p>
-      <img src="img_osito.jpg" id="img_original2" width="392" height="257">
       <br>
-      <button id="boton_img2">Seleccionar imagen 2</button>
+      <span class ="barra">Establece el umbral de rojo:</span>
+      <input type="range" id="deslizador_R" min="0" max="255" value="255"/>
+      <p id="range_value_R">00</p>
+      <span class ="barra">Establece el umbral de verde:</span>
+      <input type="range" id="deslizador_G" min="0" max="255" value="255"/>
+      <p id="range_value_G">00</p>
+      <span class ="barra">Establece el umbral de azul:</span>
+      <input type="range" id="deslizador_B" min="0" max="255" value="255"/>
+      <p id="range_value_B">00</p>
     </div>
-
-    <br>
-    <br>
-    <div>
-      <p>Imagen manipulada</p>
-      <canvas id="canvas"></canvas>
-    </div>
-
-    <br>
-    <br>
-    <p>Selección de filtro</p>
-    <button id="boton_filtro_grises">GRISES</button>
-    <button id="boton_filtro_colores">COLORES</button>
-    <button id="boton_filtro_nuclear">NUCLEAR</button>
-    <button id="boton_filtro_demoniaco">DEMONIACO</button>
-    <button id="boton_filtro_pincel">PINCEL</button>
-    <button id="boton_filtro_especular">ESPECULAR</button>
-    <button id="boton_filtro_bocaabajo">BOCA ABAJO</button>
-
-    <br>
-    <br>
-    <p>Seleccione el filtro COLORES para poder modificar los umbrales:</p>
-
-    <div class="desliz">
-      <p>Rojo:</p>
-        <input type="range" id="deslizador_rojo" min="0" max="255" value="255"/>
-        <p id="range_value_rojo">00</p>
-    </div>
-
-    <div class="desliz">
-      <p>Verde:</p>
-        <input type="range" id="deslizador_verde" min="0" max="255" value="255"/>
-        <p id="range_value_verde">00</p>
-    </div>
-
-    <div class="desliz">
-      <p>Azul:</p>
-        <input type="range" id="deslizador_azul" min="0" max="255" value="255"/>
-        <p id="range_value_azul">00</p>
-    </div>
-
   </body>
-
 </html>

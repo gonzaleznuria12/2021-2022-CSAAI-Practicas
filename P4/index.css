@@ -1,13 +1,86 @@
 body {
-    background-color: white;
+    background-image: url(fondo.jpg);
   }
   
-.orig {
-    text-align: center;
-    display: inline-table;
+  #content{
+    width: 1100px;
+    margin: 0 auto;
+    padding-top: 15px;
+    padding-bottom: 100px;
+    padding-left: 35px;
+    padding-right: 35px;
   }
   
-.desliz {
+  #left{
+      float: left;
+  }
+  #right{
+      float: right;
+  }
+  
+  span{
+      font-family: 'Girassol', cursive;
+      font-size: 20px;
+      padding-left: 10px;
+      padding-right: 10px;
+      color: black;
+  }
+  
+  #original, #gray {
+      height: 30px;
+      width: 100px;
+      font-family: 'Girassol', cursive;
+      font-size: 20px;
+      text-align: center;
+      margin-left: 35px;
+      margin-bottom: 10px;
+      margin-top: 200px;
+  }
+  #especular{
+    height: 30px;
+    width: 100px;
+    font-family: 'Girassol', cursive;
+    font-size: 20px;
     text-align: center;
-    display: inline-table;
+    margin-left: 80px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+  #babajo, #negativo{
+    height: 30px;
+    width: 100px;
+    font-family: 'Girassol', cursive;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 35px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+  
+  
+  
+  #deslizador{
+    margin-left: 500px;
+  }
+  
+  #range_value_R, #range_value_G, #range_value_B{
+    margin-left: 400px;
+    font-family: 'Girassol', cursive;
+    font-size: 15px;
+  }
+  
+  p{
+    font-family: 'Girassol', cursive;
+    margin-left: 130px;
+    font-size: 20px;
+    margin-top: 1px;
+  }
+  #botones{
+    font-family: 'Girassol', cursive;
+    margin-left: 570px;
+    margin-right: auto;
+  }
+  #fuentes{
+    display: inline-block;
+    margin-left: 550px;
   }
