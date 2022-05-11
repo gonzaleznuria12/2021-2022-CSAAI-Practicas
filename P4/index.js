@@ -44,13 +44,13 @@ img.onload = function () {
 };
 
 img1.onclick = () => {
-  img.src="flores.jpg";
+  img.src="foto2.webp";
 }
 img2.onclick = () => {
-  img.src="cerezo.jpg";
+  img.src="foto4.jpg";
 }
 img3.onclick = () => {
-  img.src="pradera.jpg";
+  img.src="foto3.jpg";
 }
 
 function colors(){
