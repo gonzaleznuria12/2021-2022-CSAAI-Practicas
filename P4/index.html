@@ -1,64 +1,69 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="shortcut icon" href="foto5.jpg">
-        <link rel="stylesheet" href="index.css">
-        <script src="index.js" defer></script>
-        <title>Práctica 4</title>
-    </head>
+<html lang="es" dir="ltr">
 
-    <body>
-        <div class="box">
-            <table class="table1">   
-                <td>
-                    <h1>Primera Imagen</h1>
-                    <span class="seleccion"><img src=foto4.jpg id="foto4" class="seleccion"></span>
-                </td>
+  <head>
+    <meta charset="utf-8">
+    <title>Filtro</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+  </head>
 
-                <td>
-                    <h1>segunda imagen</h1>
-                    <img src="foto2.webp" id="foto2" class="seleccion">
-                </td>
-                
-                <td id="filtros" style="display: none;">
-                    <button style="margin-left: 35px;" id="ruido" class="botones">Ruido</button><br>
-                    <button style="margin-left: 5px;" id="transparente"class="botones">Transparencia</button><br>
-                    <button style="margin-left: 25px;" id="negativo"class="botones">Negativo</button><br>
-                    <button id="escalagrises"class="botones">Escala de grises</button><br>
-                    <button style="margin-left: 30px;"id="colores"class="botones">Colores</button><br>
-                    <button style="margin-left: 36px;" id="sepia" class="botones">Sepia</button><br>
-                    <button style="margin-left: 30px;" id="mirror" class="botones">Mirror</button><br>
-                    <button style="margin-left: 40px;" id="flip" class="botones">Flip</button><br>
-                </td>
-            </table>
-            
-            <table> 
-                <td id="manipulada" style="display: none;">
-                    <h2>Imagen manipulada</h2>
-                    <canvas id="canvas"></canvas> 
-                </td>  
+  <body>
 
-                <td>  
-                    <div id="transparencia" style="display: none;">
-                        <input type="range" id="trans_deslizador" min="0" max="255" value="255"/>
-                        <p id="trans_value">255</p>
-                    </div>            
-                    <div id="aparecer" style="display: none;">
-                        R<input type="range" id="R_deslizador" min="0" max="255" value="255"/>
-                        <p id="R_value">255</p>
-                        G<input type="range" id="G_deslizador" min="0" max="255" value="255"/>
-                        <p id="G_value">255</p>
-                        B<input type="range" id="B_deslizador" min="0" max="255" value="255"/>
-                        <p id="B_value">255</p>
-                    </div>
-                </td>  
-            </table>
-            <h1 style="font-style: italic;" id="inicio">Elija una imagen para comenzar</h1>
-        </div><br>
-        <button style="margin-left: 1470px; display: none;" id="reset" class="botones">Reset</button>
-        
-    </body>
+    <div class="orig">
+      <p>Imagen original 1</p>
+      <img src="foto4.jpg" id="foto4" width="392" height="257">
+      <br>
+      <button id="boton_img1">Seleccionar imagen 1</button>
+    </div>
+
+    <div class="orig">
+      <p>Imagen original 2</p>
+      <img src="foto2.webp" id="foto2" width="392" height="257">
+      <br>
+      <button id="boton_img2">Seleccionar imagen 2</button>
+    </div>
+
+    <br>
+    <br>
+    <div>
+      <p>Imagen manipulada</p>
+      <canvas id="canvas"></canvas>
+    </div>
+
+    <br>
+    <br>
+    <p>Selección de filtro</p>
+    <button id="boton_filtro_grises">GRISES</button>
+    <button id="boton_filtro_colores">COLORES</button>
+    <button id="boton_filtro_nuclear">NUCLEAR</button>
+    <button id="boton_filtro_demoniaco">DEMONIACO</button>
+    <button id="boton_filtro_pincel">PINCEL</button>
+    <button id="boton_filtro_especular">ESPECULAR</button>
+    <button id="boton_filtro_bocaabajo">BOCA ABAJO</button>
+
+    <br>
+    <br>
+    <p>Seleccione el filtro COLORES para poder modificar los umbrales:</p>
+
+    <div class="desliz">
+      <p>Rojo:</p>
+        <input type="range" id="deslizador_rojo" min="0" max="255" value="255"/>
+        <p id="range_value_rojo">00</p>
+    </div>
+
+    <div class="desliz">
+      <p>Verde:</p>
+        <input type="range" id="deslizador_verde" min="0" max="255" value="255"/>
+        <p id="range_value_verde">00</p>
+    </div>
+
+    <div class="desliz">
+      <p>Azul:</p>
+        <input type="range" id="deslizador_azul" min="0" max="255" value="255"/>
+        <p id="range_value_azul">00</p>
+    </div>
+
+  </body>
+
 </html>
